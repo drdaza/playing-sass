@@ -1,0 +1,23 @@
+{
+  "name": "playing-sass",
+  "version": "1.0.0",
+  "description": "This is a repository created to practice sass and test CSS effects!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-all": "npx sass --watch src/sass/default.config.scss:public/css/default-config.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drdaza/playing-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drdaza/playing-sass/issues"
+  },
+  "homepage": "https://github.com/drdaza/playing-sass#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  }
+}
