@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch-all": "npx sass --watch src/sass/default.config.scss:public/css/default-config.css src/sass/header.scss:public/css/header.css"
+    "watch-all": "npx sass --watch src/sass/default.config.scss:public/css/default-config.css src/sass/header.scss:public/css/header.css src/sass/games-section.scss:public/css/games-section.css src/sass/game-wrapper.scss:public/css/game-wrapper.css"
   },
   "repository": {
     "type": "git",

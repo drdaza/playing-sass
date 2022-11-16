@@ -1,0 +1,13 @@
+$color-info: #0E2A50;
+main{
+    width: 100%;
+    height: 120vh;
+    #games-section{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
