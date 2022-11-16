@@ -1,0 +1,25 @@
+#header-arcade {
+  width: 90%;
+  height: 20vh;
+  margin: 1vh 5% 1vh 5%;
+  border: 2px solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#header-arcade #arcade-title {
+  background: none;
+  font-size: 3em;
+}
+
+#header-arcade:hover {
+  box-shadow: inset 0 0 15px #FEED00, 0 0 20px #FEED00;
+}
+#header-arcade:hover #arcade-title {
+  cursor: pointer;
+  text-shadow: 0 0 5px #FEED00, 0 0 20px #FEED00;
+}
+
+/*# sourceMappingURL=header.css.map */

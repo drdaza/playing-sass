@@ -1,0 +1,25 @@
+$neon-color: #FEED00;
+#header-arcade{
+    width: 90%;
+    height: 20vh;
+    margin: 1vh 5% 1vh 5%;
+    border: 2px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    #arcade-title{
+        background: none;
+        font-size: 3em;
+    }
+}
+#header-arcade:hover{
+    box-shadow: inset 0 0 15px $neon-color,
+                0 0 20px $neon-color;
+    #arcade-title{
+                    cursor: pointer;
+                    text-shadow: 0 0 5px $neon-color,
+                                 0 0 20px $neon-color;
+                }
+}

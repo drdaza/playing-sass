@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch-all": "npx sass --watch src/sass/default.config.scss:public/css/default-config.css"
+    "watch-all": "npx sass --watch src/sass/default.config.scss:public/css/default-config.css src/sass/header.scss:public/css/header.css"
   },
   "repository": {
     "type": "git",
